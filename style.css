@@ -104,6 +104,13 @@ main {
   background-repeat: no-repeat;
 }
 
+.SectionDaMain {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16.375vw;
+  align-items: flex-end;
+}
+
 /* COMECE A JOGAR */
 
 .ComeceAjogar {
@@ -120,25 +127,6 @@ main {
   position: relative;
   top: -2.5vw;
   z-index: 1;
-}
-
-.ComeceAjogar button {
-  background: transparent;
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 2% 10%;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  outline: none;
-}
-
-.ComeceAjogar button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  transform: scale(1.2);
-  backdrop-filter: blur(1px);
 }
 
 .ComeceAjogar h2 {
@@ -161,14 +149,26 @@ main {
   opacity: 0.5;
 }
 
-/* SOBRE O JOGO */
-
-.SectionDaMain {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 16.375vw;
-  align-items: flex-end;
+.ComeceAjogar button {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2% 10%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
 }
+
+.ComeceAjogar button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.2);
+  backdrop-filter: blur(1px);
+}
+
+/* SOBRE O JOGO */
 
 .SobreOjogo {
   display: flex;
@@ -207,4 +207,30 @@ main {
   width: 34.5%;
   border-radius: 10px;
   background-color: black;
+}
+
+/* SEGUNDA PARTE DA MAIN */
+
+.LineDivisaoDaMain {
+  height: 4.5px;
+  width: 75%;
+  background-color: #707070;
+  position: relative;
+  left: 267px;
+  top: 45px;
+}
+
+.EstruturaContainer {
+  display: flex;
+  padding-top: 120px;
+}
+
+.DarthMaul img {
+  width: 843px;
+  height: 846px;
+}
+
+.ReyNonSkywalker img {
+  width: 398px;
+  height: 760px;
 }
