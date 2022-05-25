@@ -7,7 +7,7 @@
 
 
 header {
-    background: url(../imagens/star\ uó\ topo.png) center;
+    background: url(/img/star\ uó\ topo.png) center;
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
@@ -103,14 +103,14 @@ header {
 /* MAIN PARTE 1 */
 
 main {
-    background-image: url(../imagens/sta\ uo\ robot@2x.png);
+    background-image: url(/img/sta\ uo\ robot@2x.png);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
 }
 
 .ComeceAjogar {
-    background: url(../imagens/strom\ trupe\ red@2x.png)no-repeat center top;
+    background: url(/img/strom\ trupe\ red@2x.png)no-repeat center top;
     background-size: cover;
     width: 20.68vw;
     height: 30vw;
