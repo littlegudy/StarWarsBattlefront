@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    background: url(../imagens/star\ uó\ topo.png) center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 77vh;
+
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.KyloRenImagem {
+    width: 59vw;
+    position: absolute;
+    z-index: 1;
+    left: 46%;
+    transform: translate(-50%);
+}
+
+
+.star {
+    width: 20vw;
+    position: absolute;
+    left: 23.6%;
+    top: 55%;
+}
+
+.star img {
+    width: 100%;
+}
+
+.wars {
+    width: 20vw;
+    position: absolute;
+    top: 55%;
+    right: 17.6vw;
+}
+
+.wars img {
+    width: 100%;
+}
+
+
+/* BOX: CRIE SUA LEGIÃO */
+.crieSuaLegiao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+    height: 69.77px;
+    transform: scale(1.5);
+    position: absolute;
+    right: 320px;
+    bottom: 41px;
+}
+
+.crieSuaLegiao h2 {
+    font-weight: 400;
+    font-size: .7rem;
+}
+
+.crieSuaLegiao span {
+    font-weight: 700;
+}
+
+.line {
+    height: 1px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.legiaoButton {
+    display: flex;
+    align-items: center;
+}
+
+.legiaoButton p:first-child {
+    font-size: .7rem;
+}
+
+.legiaoButton p:nth-child(2) {
+    font-size: .5rem;
+}
+
+.legiaoButton span {
+    font-size: .5rem;
+    background-color: #a9bdc1;
+}
+
+/* MAIN PARTE 1 */
+
+main {
+    background-image: url(../imagens/sta\ uo\ robot@2x.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.ComeceAjogar {
+    background: url(../imagens/strom\ trupe\ red@2x.png)no-repeat center top;
+    background-size: cover;
+    width: 20.68vw;
+    height: 30vw;
+    padding: 5% 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+    color: white;
+    position: relative;
+    top: -2.5vw;
+    z-index: 1;
+}
+
+.ComeceAjogar button {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2% 10%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ComeceAjogar h2 {
+    width: 50%;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ComeceAjogar p:nth-child(2) {
+    width: 100%;
+    text-align: justify;
+}
+
+.ComeceAjogar p:last-child {
+    position: relative;
+    top: -12%;
+    right: -25%;
+    font-size: .5rem;
+    opacity: 0.5;
+}
+
+.ComeceAjogar button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.2);
+    backdrop-filter: blur(1px);
+}
+
+/* 
+.ComeceAjogar {
+    position: relative;
+    top: -53px;
+}
+
+.ComeceAjogar .Banner {
+    width: 20.68vw;
+    height: auto;
+    background: url("../imagens/strom trupe red@2x.png") no-repeat center top;
+} */
