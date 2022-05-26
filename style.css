@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap%22");
+
 * {
   margin: 0;
   padding: 0;
@@ -97,9 +99,9 @@ header {
 
 /* MAIN PARTE 1 */
 
-main {
+.BackgroundBrancoDaMain {
   background-image: url(/img/sta\ uo\ robot@2x.png);
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -222,15 +224,77 @@ main {
 
 .EstruturaContainer {
   display: flex;
-  padding-top: 120px;
+  justify-content: center;
 }
 
 .DarthMaul img {
-  width: 843px;
-  height: 846px;
+  width: 40vw;
+  height: auto;
+  position: relative;
+  top: 52px;
+  left: 117px;
 }
 
 .ReyNonSkywalker img {
-  width: 398px;
-  height: 760px;
+  width: 20.5vw;
+  height: auto;
+  position: relative;
+  top: 75px;
+}
+
+.TituloDaLista {
+  font-size: 2.1875rem;
+  padding-bottom: 1.5vw;
+}
+
+.listaComTitulo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 4.25vw;
+  top: 129px;
+}
+
+.listaComTitulo ul {
+  font-size: 1.5rem;
+  gap: 1.25vw;
+}
+
+.TituloDaLista,
+.listaComTitulo ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.TituloDaLista h2 {
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.TituloDaLista h2 span {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+.listaComTitulo ul li {
+  list-style-type: none;
+  width: 450px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.listaComTitulo ul li:hover {
+  cursor: pointer;
+  background-color: #d74430;
+  border: solid none;
+  color: white;
+}
+
+/* FAZENDO A PARTE ATRIBUTOS */
+
+.atributos {
+  background-color: #2d2d2d;
+  height: 800px;
 }
