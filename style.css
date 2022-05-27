@@ -235,18 +235,6 @@ header {
   left: 117px;
 }
 
-.ReyNonSkywalker img {
-  width: 20.5vw;
-  height: auto;
-  position: relative;
-  top: 75px;
-}
-
-.TituloDaLista {
-  font-size: 2.1875rem;
-  padding-bottom: 1.5vw;
-}
-
 .listaComTitulo {
   display: flex;
   flex-direction: column;
@@ -258,24 +246,6 @@ header {
 .listaComTitulo ul {
   font-size: 1.5rem;
   gap: 1.25vw;
-}
-
-.TituloDaLista,
-.listaComTitulo ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.TituloDaLista h2 {
-  line-height: 1;
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
-}
-
-.TituloDaLista h2 span {
-  font-weight: 800;
-  font-family: "Poppins", sans-serif;
 }
 
 .listaComTitulo ul li {
@@ -292,9 +262,75 @@ header {
   color: white;
 }
 
+.TituloDaLista,
+.listaComTitulo ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.TituloDaLista {
+  font-size: 2.1875rem;
+  padding-bottom: 1.5vw;
+}
+
+.TituloDaLista h2 {
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.TituloDaLista h2 span {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+.ReyNonSkywalker img {
+  width: 20.5vw;
+  height: auto;
+  position: relative;
+  top: 75px;
+}
+
 /* FAZENDO A PARTE ATRIBUTOS */
 
 .atributos {
   background-color: #2d2d2d;
-  height: 800px;
+  padding-top: 120px;
+}
+
+.AtributosContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.TituloAtributos h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+  color: white;
+  position: relative;
+  right: 425px;
+  padding-bottom: 42px;
+}
+
+.ImagemUm img {
+  width: 40.8vw;
+}
+
+.ImagemDois img,
+.ImagemTres img,
+.ImagemQuatro img,
+.ImagemCinco img {
+  width: 20vw;
+}
+
+.SegundaTerceiraImagem {
+  display: flex;
+  flex-direction: column;
+}
+
+.QuartaQuintaImagem {
+  display: flex;
+  flex-direction: column;
 }
