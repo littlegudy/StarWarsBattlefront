@@ -314,23 +314,13 @@ header {
   padding-bottom: 42px;
 }
 
-.ImagemUm img {
-  width: 40.8vw;
+.ImagemUm {
+  width: 40.2vw;
 }
 
-.ImagemDois img,
-.ImagemTres img,
-.ImagemQuatro img,
-.ImagemCinco img {
+.SegundaTerceiraImagem img,
+.QuartaQuintaImagem img {
+  display: flex;
+  flex-direction: column;
   width: 20vw;
-}
-
-.SegundaTerceiraImagem {
-  display: flex;
-  flex-direction: column;
-}
-
-.QuartaQuintaImagem {
-  display: flex;
-  flex-direction: column;
 }
