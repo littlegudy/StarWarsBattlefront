@@ -329,6 +329,20 @@ header {
   flex-direction: column;
 }
 
+.Hierarquia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Hierarquia h2 {
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding-top: 7vw;
+  padding-bottom: 8vw;
+}
+
 .HierarquiaContainer {
   display: flex;
   flex-direction: column;
@@ -351,6 +365,7 @@ header {
   color: white;
   opacity: 0.7;
 }
+
 
 /* HOVER DA PARTE ATRIBUTOS */
 
@@ -464,4 +479,64 @@ header {
 .CardImage:hover .SobreAImagem {
   transform: scale(1.1);
   opacity: 1;
+}
+
+/* COMO JOGAR */
+
+.ComoJogar {
+  position: relative;
+}
+
+.StormDeCapa img {
+  width: 27vw;
+  position: absolute;
+  top: -20vw;
+  left: 8.875vw;
+}
+
+.buttons {
+  display: flex;
+  gap: 116px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 400px;
+  padding-top: 97px;
+}
+
+.buttons h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.buttons button {
+  background-color: black;
+  color: white;
+  padding: 10px 37px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+  font-weight: 300;
+}
+
+.buttons div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.buttons p {
+  font-size: 11px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.linhabutton {
+  height: 4.5px;
+  width: 35%;
+  background-color: black;
+  margin: 0 auto;
 }
