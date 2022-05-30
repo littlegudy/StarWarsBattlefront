@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap%22");
 
+@font-face {
+  font-family: "Star Wars";
+  src: url("fonts/StarJedi.woff");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -539,4 +544,73 @@ header {
   width: 35%;
   background-color: black;
   margin: 0 auto;
+}
+
+footer {
+  position: relative;
+}
+
+.ComoJogar {
+  padding-bottom: 9vw;
+}
+
+.caixa-laranja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff5a56;
+  width: 62vw;
+  padding-top: 4vw;
+}
+
+.caixa-laranja h2:first-child {
+  color: white;
+  text-transform: uppercase;
+  line-height: 70px;
+  font-size: 2rem;
+  padding-bottom: 2vw;
+}
+
+.caixa-laranja p:nth-child(2) {
+  width: 28vw;
+  color: white;
+  padding-bottom: 2vw;
+}
+
+.caixa-laranja p:last-child {
+  width: 28vw;
+  color: white;
+  padding-block: 2vw;
+}
+
+.LogosSocialMedia {
+  padding-bottom: 3vw;
+}
+
+.LogosSocialMedia img {
+  width: 14vw;
+}
+
+.LineFooter {
+  height: 2.5px;
+  width: 47%;
+  border: 2px solid #D74430;
+  opacity: 1;
+}
+
+.StarWarsFonte {
+  font-family: "Star Wars";
+  font-size: 5vw;
+  line-height: 4.25vw;
+  color: white;
+  padding-top: 3vw;
+  letter-spacing: .2rem;
+}
+
+
+.VaderSemCapacete img {
+  width: 39vw;
+  position: absolute;
+  left: 51.5vw;
+  margin-top: -52vw;
 }
