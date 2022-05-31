@@ -371,7 +371,6 @@ header {
   opacity: 0.7;
 }
 
-
 /* HOVER DA PARTE ATRIBUTOS */
 
 .bordertop {
@@ -424,9 +423,8 @@ header {
 }
 
 .CardImage p {
-  font-size: .675vw;
+  font-size: 0.675vw;
 }
-
 
 .SobreAImagem button {
   position: relative;
@@ -532,7 +530,6 @@ header {
   gap: 15px;
 }
 
-
 .buttons p {
   font-size: 11px;
   margin: 0 auto;
@@ -564,10 +561,12 @@ footer {
 }
 
 .caixa-laranja h2:first-child {
+  width: 28vw;
   color: white;
   text-transform: uppercase;
+  font-weight: 800;
   line-height: 70px;
-  font-size: 2rem;
+  font-size: 2.6rem;
   padding-bottom: 2vw;
 }
 
@@ -575,26 +574,31 @@ footer {
   width: 28vw;
   color: white;
   padding-bottom: 2vw;
+  opacity: 0.7;
 }
 
 .caixa-laranja p:last-child {
   width: 28vw;
   color: white;
+  opacity: 0.7;
   padding-block: 2vw;
 }
 
 .LogosSocialMedia {
+  display: flex;
+  gap: 1vw;
   padding-bottom: 3vw;
 }
 
 .LogosSocialMedia img {
   width: 14vw;
+  cursor: pointer;
 }
 
 .LineFooter {
   height: 2.5px;
   width: 47%;
-  border: 2px solid #D74430;
+  border: 2px solid #d74430;
   opacity: 1;
 }
 
@@ -604,13 +608,21 @@ footer {
   line-height: 4.25vw;
   color: white;
   padding-top: 3vw;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
+  width: 25vw;
 }
-
 
 .VaderSemCapacete img {
   width: 39vw;
   position: absolute;
   left: 51.5vw;
   margin-top: -52vw;
+}
+
+.DireitosAutorais p {
+  width: 23vw;
+  position: absolute;
+  left: 68vw;
+  bottom: 3vw;
+  font-size: 0.6875rem;
 }
