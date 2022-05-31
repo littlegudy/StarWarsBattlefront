@@ -12,6 +12,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* CRIAÇÃO DO BANNER DO TOPO ======================= */
 header {
   background: url(/img/star\ uó\ topo.png) center;
   background-size: cover;
@@ -20,13 +21,13 @@ header {
   height: 77vh;
 }
 
-.container {
+header .container {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.KyloRenImagem {
+header .kyloRenImagem {
   width: 59vw;
   position: absolute;
   z-index: 1;
@@ -34,30 +35,31 @@ header {
   transform: translate(-50%);
 }
 
-.star {
+header .palavraStar {
   width: 20vw;
   position: absolute;
   left: 23.6%;
   top: 55%;
 }
 
-.star img {
+header .palavraStar img {
   width: 100%;
 }
 
-.wars {
+header .palavraWars {
   width: 20vw;
   position: absolute;
   top: 55%;
   right: 17.6vw;
 }
 
-.wars img {
+header .palavraWars img {
   width: 100%;
 }
 
-/* BOX: CRIE SUA LEGIÃO */
-.crieSuaLegiao {
+
+/* CRIAÇÃO DA CAIXA DO BANNER: CRIE SUA LEGIÃO ======================= */
+header .crieSuaLegiao {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -69,58 +71,58 @@ header {
   bottom: 41px;
 }
 
-.crieSuaLegiao h2 {
+header .crieSuaLegiao h2 {
   font-weight: 400;
   font-size: 0.7rem;
 }
 
-.crieSuaLegiao span {
+header .crieSuaLegiao span {
   font-weight: 700;
 }
 
-.line {
+header .line {
   height: 1px;
   border-radius: 10px;
   background-color: black;
 }
 
-.legiaoButton {
+header .legiaoBotaoSelect {
   display: flex;
   align-items: center;
 }
 
-.legiaoButton p:first-child {
+header .legiaoBotaoSelect p:first-child {
   font-size: 0.7rem;
 }
 
-.legiaoButton p:nth-child(2) {
+header .legiaoBotaoSelect p:nth-child(2) {
   font-size: 0.5rem;
 }
 
-.legiaoButton span {
+header .legiaoBotaoSelect span {
   font-size: 0.5rem;
   background-color: #a9bdc1;
 }
 
 /* MAIN PARTE 1 */
 
-.BackgroundBrancoDaMain {
+main .backgroundMain {
   background-image: url(/img/sta\ uo\ robot@2x.png);
   background-size: contain;
   width: 100%;
   background-repeat: no-repeat;
 }
 
-.SectionDaMain {
+main .redCardEsobreJogo {
   display: flex;
   justify-content: space-between;
   padding: 0 16.375vw;
   align-items: flex-end;
 }
 
-/* COMECE A JOGAR */
+/* COMECE A JOGAR - REDCARD ======================= */
 
-.ComeceAjogar {
+main .redCard {
   background: url(/img/strom\ trupe\ red@2x.png) no-repeat center top;
   background-size: cover;
   width: 20.68vw;
@@ -136,19 +138,19 @@ header {
   z-index: 1;
 }
 
-.ComeceAjogar h2 {
+main .redCard h2 {
   width: 50%;
   font-size: 35px;
   font-weight: 400;
   text-align: center;
 }
 
-.ComeceAjogar p:nth-child(2) {
+main .redCard p:nth-child(2) {
   width: 100%;
   text-align: justify;
 }
 
-.ComeceAjogar p:last-child {
+main .redCard p:last-child {
   position: relative;
   top: -12%;
   right: -25%;
@@ -156,7 +158,7 @@ header {
   opacity: 0.5;
 }
 
-.ComeceAjogar button {
+main .redCard button {
   background: transparent;
   border: 1px solid white;
   border-radius: 5px;
@@ -169,27 +171,27 @@ header {
   outline: none;
 }
 
-.ComeceAjogar button:hover {
+main .redCard button:hover {
   background-color: rgba(255, 255, 255, 0.2);
   transform: scale(1.2);
   backdrop-filter: blur(1px);
 }
 
-/* SOBRE O JOGO */
+/* SOBRE O JOGO ======================= */
 
-.SobreOjogo {
+main .sobreJogo {
   display: flex;
   width: 60%;
   padding-bottom: 2.4vw;
 }
 
-.SobreOjogo img {
+main .sobreJogo img {
   width: 24vw;
   height: 13vw;
   padding-left: 1vw;
 }
 
-.TituloContaner {
+main .AgrupamentoInfoSobreJogo {
   text-align: right;
 }
 
@@ -512,16 +514,37 @@ header {
   text-align: center;
 }
 
-.buttons button {
+.buttons .butao {
+  position: relative;
+  overflow: hidden;
+  border: none;
   background-color: black;
   color: white;
   padding: 10px 37px;
   cursor: pointer;
-  text-transform: uppercase;
-  font-size: 1rem;
-  line-height: 25px;
-  letter-spacing: 0.6px;
-  font-weight: 300;
+
+  width: 10.5925vw;
+
+}
+
+.butao::after {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ff5a56;
+
+  transition: .5s;
+}
+
+.butao:hover::after {
+  right: 0;
+}
+
+.butao:hover.Linhabutton {
+  display: none;
 }
 
 .buttons div {
@@ -534,6 +557,15 @@ header {
   font-size: 11px;
   margin: 0 auto;
   text-align: center;
+}
+
+.butao p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+  font-weight: 300;
+  z-index: 2;
 }
 
 .linhabutton {
