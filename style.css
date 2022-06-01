@@ -493,11 +493,12 @@ main .AgrupamentoInfoSobreJogo {
 }
 
 .StormDeCapa img {
-  width: 27vw;
+  width: 20vw;
   position: absolute;
   top: -20vw;
   left: 8.875vw;
 }
+
 
 .buttons {
   display: flex;
@@ -512,6 +513,9 @@ main .AgrupamentoInfoSobreJogo {
   font-size: 2rem;
   font-weight: 400;
   text-align: center;
+
+  transition: font-weight .5s ease-in-out;
+
 }
 
 .buttons .butao {
@@ -547,6 +551,14 @@ main .AgrupamentoInfoSobreJogo {
   display: none;
 }
 
+#button:hover .linhabutton {
+  background-color: #ff5a56;
+}
+
+#button:hover h2 {
+  font-weight: 1000;
+}
+
 .buttons div {
   display: flex;
   flex-direction: column;
@@ -573,6 +585,8 @@ main .AgrupamentoInfoSobreJogo {
   width: 35%;
   background-color: black;
   margin: 0 auto;
+
+  transition: background-color .5s ease-in-out;
 }
 
 footer {
