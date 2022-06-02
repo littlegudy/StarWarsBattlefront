@@ -14,7 +14,7 @@
 
 /* CRIAÇÃO DO BANNER DO TOPO ======================= */
 header {
-  background: url(/img/star\ uó\ topo.png) center;
+  background: url(./img/star\ uó\ topo.png) center;
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@ header .legiaoBotaoSelect span {
 /* MAIN PARTE 1 */
 
 main .backgroundMain {
-  background-image: url(/img/sta\ uo\ robot@2x.png);
+  background-image: url(./img/sta\ uo\ robot@2x.png);
   background-size: contain;
   width: 100%;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ main .redCardEsobreJogo {
 /* COMECE A JOGAR - REDCARD ======================= */
 
 main .redCard {
-  background: url(/img/strom\ trupe\ red@2x.png) no-repeat center top;
+  background: url(./img/strom\ trupe\ red@2x.png) no-repeat center top;
   background-size: cover;
   width: 20.68vw;
   height: 30vw;
