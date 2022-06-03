@@ -50,7 +50,7 @@ header .palavraWars {
   width: 20vw;
   position: absolute;
   top: 55%;
-  right: 17.6vw;
+  right: 17vw;
 }
 
 header .palavraWars img {
@@ -99,9 +99,21 @@ header .legiaoBotaoSelect p:nth-child(2) {
   font-size: 0.5rem;
 }
 
-header .legiaoBotaoSelect span {
-  font-size: 0.5rem;
+header .legiaoBotaoSelect .seletores {
+  display: flex;
+  gap: .1rem;
+  padding-left: .1rem;
+}
+
+header .legiaoBotaoSelect .seletores button {
   background-color: #a9bdc1;
+  color: #050606;
+  cursor: pointer;
+  border: none;
+  padding: 0 .2vw;
+  text-align: center;
+  font-size: .5vw;
+  font-weight: 800;
 }
 
 /* MAIN PARTE 1 */
