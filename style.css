@@ -18,7 +18,7 @@ header {
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
-  height: 77vh;
+  height: 37.970625vw;
 }
 
 header .container {
@@ -28,7 +28,7 @@ header .container {
 }
 
 header .kyloRenImagem {
-  width: 59vw;
+  width: 62vw;
   position: absolute;
   z-index: 1;
   left: 46%;
@@ -50,7 +50,7 @@ header .palavraWars {
   width: 20vw;
   position: absolute;
   top: 55%;
-  right: 17vw;
+  right: 16.2vw;
 }
 
 header .palavraWars img {
@@ -63,17 +63,16 @@ header .crieSuaLegiao {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 80px;
-  height: 69.77px;
+  width: 5vw;
   transform: scale(1.5);
   position: absolute;
-  right: 320px;
-  bottom: 41px;
+  right: 20%;
+  bottom: 2.5625vw;
 }
 
 header .crieSuaLegiao h2 {
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: .7vw;
 }
 
 header .crieSuaLegiao span {
@@ -84,6 +83,7 @@ header .line {
   height: 1px;
   border-radius: 10px;
   background-color: black;
+  margin: .5vw 0;
 }
 
 header .legiaoBotaoSelect {
